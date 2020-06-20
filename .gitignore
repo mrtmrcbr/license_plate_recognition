@@ -1,5 +1,2 @@
 .backups
-.mysql_volume
-.env.db
 venv
-target/
