@@ -149,8 +149,8 @@ def start_video_process(video_device=0, upload_folder_name="uploads"):
 
 def main():
     if is_upload_folder_created():
-        start_video_process("https://192.168.43.1:8080/video")
-        #start_video_process()
+        #start_video_process("https://192.168.43.1:8080/video")
+        start_video_process()
     else:
         sys.exit(1)
     
